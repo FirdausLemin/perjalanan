@@ -797,12 +797,18 @@ $("#suggesstion-box").hide();
                     <input name="checkbox[]" type="checkbox" id="checkbox1<?php echo $i;?>"  value="<?php echo $i; ?>"/>
                     </center>
                     <input type="hidden" id="noid<?php echo $lineindex;?>" name="noid<?php echo $lineindex;?>" value="<?php echo $Id;?>">
+                    <input type="hidden" id="nama<?php echo $lineindex;?>" name="nama<?php echo $lineindex;?>" value="<?php echo $nama;?>">
                     <input type="hidden" id="NoKPPegawai<?php echo $lineindex;?>" name="NoKPPegawai<?php echo $lineindex;?>" value="<?php echo $NoKPPegawai;?>">
-                    <input type="hidden" id="Nama<?php echo $lineindex;?>" name="Nama<?php echo $lineindex;?>" value="<?php echo $nama;?>">
-                    <input type="hidden" id="nobank<?php echo $lineindex;?>" name="nobank<?php echo $lineindex;?>" value="<?php echo $noakaunbankquery;?>">
-                    <input type="hidden" id="namabank<?php echo $lineindex;?>" name="namabank<?php echo $lineindex;?>" value="<?php echo $namabankquery;?>">
-                    <input type="hidden" id="tuntutan<?php echo $lineindex;?>" name="tuntutan<?php echo $lineindex;?>" value="<?php echo $Tuntutan;?>">
-                    <input type="hidden" id="jenistuntutan<?php echo $lineindex;?>" name="jenistuntutan<?php echo $lineindex;?>" value="<?php echo $JenisTuntutan;?>">                    
+                    <input type="hidden" id="nobank<?php echo $lineindex;?>" name="nobank<?php echo $lineindex;?>" value="<?php echo $noakaunbankquery; ?><br><?php echo $namabankquery; ?>">
+                    <input type="hidden" id="elaunmakan<?php echo $lineindex;?>" name="elaunmakan<?php echo $lineindex;?>" value="<?php echo $Amount_A;?>">
+                    <input type="hidden" id="elaunhotel<?php echo $lineindex;?>" name="elaunhotel<?php echo $lineindex;?>" value="<?php echo $Amount_BC;?>">
+                    <input type="hidden" id="perbatuan<?php echo $lineindex;?>" name="perbatuan<?php echo $lineindex;?>" value="<?php echo $Amount_E;?>"> 
+                    <input type="hidden" id="tol<?php echo $lineindex;?>" name="tol<?php echo $lineindex;?>" value="<?php echo $Amount_D;?>">  
+                    <input type="hidden" id="bagasi<?php echo $lineindex;?>" name="bagasi<?php echo $lineindex;?>" value="<?php echo $Amount_GH;?>"> 
+                    <input type="hidden" id="bagasi<?php echo $lineindex;?>" name="bagasi<?php echo $lineindex;?>" value="<?php echo $Amount_L;?>">                    
+                   
+                  
+                   
             		</td>
                   </tr>
 				  <?php
